@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+:root{
+    --m-color:#0d415e;
+    --m-bg-b:#0077B6;
+}
+html{
+    height:100%;
+}
+body{
+    background: #E8F7FF;
+    height:100%;
+}
+header{
+    background:#0077B6;
+    color:white;
+    height:90px;
+    line-height: 2;
+}
+.fa-solid{
+    color:gold;
+}
+header h2, header p{
+    margin:auto;
+    width:fit-content;
+}
+
+                         /* *Main */
+main{
+    height:100%;
+}
+
+                         /* *About Section*/
+.about-sec{
+    width:80%;
+    margin:5px auto;
+    padding:10px;
+    padding-bottom:0;
+    border:10px 8px var(--m-border);
+    color:var(--m-color);
+    background:rgb(247, 255, 255);
+    
+}
+.about-sec h3{
+    border:1px solid #0077B6;
+    padding:5px;
+    margin:8px;
+}
+.about-sec p{
+    height:120px;
+    overflow: auto;
+    padding:10px 10px;
+    padding-bottom:0;
+    line-height:2;
+}
+
+                        /* * Skills Section */
+.skills-sec{
+    /* background: white; */
+    height:150px;
+    padding:20px;
+}
+.skills-sec h3{
+    color:var(--m-color);
+    margin-bottom: 10px;;
+}
+.skills-sec ul{
+    margin-left:20px;
+}
+
+
+                    /* *My Project Section */
+.projects-sec{
+    background:white;
+    border:1px dashed var(--m-bg-b);
+    padding:8px 10px;
+    width:90%;
+    margin:auto;
+    /* height:80%; */
+}
+.projects-sec h3{
+    color:#0d415e;
+}
+.projects-sec .projects{
+    width:60%;
+    margin:50px auto;
+    display:flex;
+    column-gap: 10px;
+
+}
+.projects-sec .projects div{
+    border:2px double #6db3d8;
+    text-align:center;
+    padding:5px;
+}
+.projects-sec .projects div h4{
+    text-decoration: underline solid #0d415e;
+    color:var(--m-color)
+}
+.projects-sec .projects img{
+    width:80px;
+    background:#def3ff;
+    border:1px solid #95d8ff;
+}
+.projects-sec .projects div p{
+    text-align:start;
+    color:rgb(85, 85, 85);
+    margin-top:8px;
+    font-size:14px;
+}
+
+.projects-sec  a{
+    color:white;
+    text-decoration: none;
+    background: rgb(105, 185, 235);
+    padding:8px;
+    margin:20px auto 5px;
+    display:inline-block;
+    border-radius:5px;
+    font-size:18px;
+
+}
+
+                  /* *Footer */
+
+footer{
+    margin-top:20px;
+    background:#0077B6 ;
+    color:white;
+    height:70px;
+    text-align: center;
+   
+}
+footer div{
+     position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+footer a{
+    color:rgb(253, 253, 253);
+    font-size:20px;
+}
+footer .fa-arrow-up-right-from-square{
+    color:white;
+}
